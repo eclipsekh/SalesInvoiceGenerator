@@ -115,6 +115,7 @@ public class SalesInvoiceGeneratorController implements ActionListener, ListSele
                 userAction = jFileChooser.showOpenDialog(salesInvoiceGeneratorFrame);
                 if(userAction == JFileChooser.APPROVE_OPTION){
                     File invoiceDetails = jFileChooser.getSelectedFile();
+                    
                     List<String> invoiceDetailsRows = Files.lines(Paths.get(invoiceDetails.getAbsolutePath())).collect(Collectors.toList());
                     for(String invoiceDetailsRow : invoiceDetailsRows){
                         String[] detailsRow = invoiceDetailsRow.split(",");
