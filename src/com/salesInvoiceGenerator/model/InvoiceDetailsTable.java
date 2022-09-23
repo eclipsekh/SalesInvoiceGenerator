@@ -55,7 +55,7 @@ public class InvoiceDetailsTable extends AbstractTableModel{
                 
                 return invoiceDetails.getItemTotal();
             default:
-                return 0;
+                return "";
         }
     }
     

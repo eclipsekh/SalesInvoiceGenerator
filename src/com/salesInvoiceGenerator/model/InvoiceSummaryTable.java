@@ -52,7 +52,7 @@ public class InvoiceSummaryTable extends AbstractTableModel{
                 
                 return invoice.getInvoiceTotal();
             default:
-                return 0;
+                return "";
         }
     }
     

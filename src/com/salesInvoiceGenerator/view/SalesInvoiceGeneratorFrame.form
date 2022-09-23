@@ -78,8 +78,8 @@
                               <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="invoiceIdLabel" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="invoiceDateLabel" alignment="0" pref="149" max="32767" attributes="0"/>
-                                  <Component id="customerNameLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="invoiceDateLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="customerNameLabel" alignment="0" pref="149" max="32767" attributes="0"/>
                                   <Component id="invoiceTotalLabel" alignment="0" min="-2" pref="123" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -232,33 +232,34 @@
     </Container>
     <Component class="javax.swing.JLabel" name="invoiceIdLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel7"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="invoiceDateLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel8"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="customerNameLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel9"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="invoiceTotalLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jLabel10"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="saveItemButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="text" type="java.lang.String" value="Create Item"/>
         <Property name="actionCommand" type="java.lang.String" value="SaveItem"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="cancelItemButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Cancel"/>
+        <Property name="text" type="java.lang.String" value="Delete Item"/>
+        <Property name="actionCommand" type="java.lang.String" value="DeleteItem"/>
       </Properties>
     </Component>
   </SubComponents>

@@ -58,7 +58,7 @@ public class SalesInvoiceGeneratorController implements ActionListener, ListSele
             case "SaveItem":
                 saveItem();
                 break;
-            case "Cancel":
+            case "DeleteItem":
                 cancelItem();
                 break;
             case "createDialogButton":

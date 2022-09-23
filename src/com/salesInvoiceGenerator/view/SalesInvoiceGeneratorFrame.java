@@ -104,18 +104,19 @@ public class SalesInvoiceGeneratorFrame extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(detailsTable);
 
-        invoiceIdLabel.setText("jLabel7");
+        invoiceIdLabel.setText("0");
 
-        invoiceDateLabel.setText("jLabel8");
+        invoiceDateLabel.setText("0");
 
-        customerNameLabel.setText("jLabel9");
+        customerNameLabel.setText("0");
 
-        invoiceTotalLabel.setText("jLabel10");
+        invoiceTotalLabel.setText("0");
 
-        saveItemButton.setText("Save");
+        saveItemButton.setText("Create Item");
         saveItemButton.setActionCommand("SaveItem");
 
-        cancelItemButton.setText("Cancel");
+        cancelItemButton.setText("Delete Item");
+        cancelItemButton.setActionCommand("DeleteItem");
 
         jMenu1.setText("File");
 
@@ -159,8 +160,8 @@ public class SalesInvoiceGeneratorFrame extends javax.swing.JFrame {
                                 .addGap(89, 89, 89)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(invoiceIdLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(invoiceDateLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
-                                    .addComponent(customerNameLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(invoiceDateLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(customerNameLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 149, Short.MAX_VALUE)
                                     .addComponent(invoiceTotalLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(45, 45, 45)
